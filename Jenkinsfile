@@ -1,6 +1,7 @@
 pipeline {
     environment {
-        DOMAIN='apps.cluster1.zch.org'
+        // DOMAIN='apps.cluster1.zch.org'
+        DOMAIN='apps.ap46a.prod.ole.redhat.com'
         PRJ="hello-${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
         APP='nodeapp'
     }
